@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Types of Art Styles</title>
+
+    
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f7;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Only font changed here */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 40px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        figure {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 320px;
+        }
+
+        img {
+            border-radius: 8px;
+            transition: 0.3s ease;
+            
+            filter: grayscale(40%) brightness(105%) contrast(110%);
+        }
+
+        img:hover {
+            filter: none;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .license {
+            font-size: 12px;
+            margin-top: 8px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Types of Art Styles</h1>
+        <p>
+            An <strong><em>art style</em></strong> is basically the collection of visuals 
+            which informs us how something <strong><em>appears</em></strong>,
+        </p>
+    </header>
+
+    <main class="gallery">
+
+        <figure>
+            <img src="mayur-deshpande-zZPeoLxLRyM-unsplash.jpg" 
+                 alt="Abstract art"
+                 title="Abstract Art"
+                 width="300"
+                 height="200">
+            
+            <p class="license">
+                <strong><em>Abstract art</em></strong> does not aim to provide an accurate depiction of reality. 
+                Instead, it uses elements such as <strong>shapes, colors, forms</strong>, and gestural mark-making 
+                either to capture the <em>essence</em> of objects or to create art that has no direct connection to reality.
+            </p>
+        </figure>
+
+        <figure>
+            <img src="tobias-rademacher-NuBvAE6VfSM-unsplash.jpg" 
+                 alt="Minimalism Art"
+                 title="Minimalism Art"
+                 width="300"
+                 height="200">
+            
+            <p class="license">
+                <strong><em>Minimalist artists</em></strong> de-emphasized personal expression, placing 
+                the <strong>art itself</strong> at the forefront. They challenged viewers to engage 
+                directly with the <em>reality of the artwork</em>, its medium, and its materials.
+            </p>
+        </figure>
+
+        <figure>
+            <img src="laura-jaeger-qJXO-CWN-Lk-unsplash.jpg" 
+                 alt="Geometric art"
+                 title="Geometric art"
+                 width="300"
+                 height="200">
+            
+            <p class="license">
+                <strong><em>Geometric art</em></strong> employs geometric forms created from 
+                <strong>points, lines, angles, and shapes</strong>, ranging from simple triangles, 
+                squares, and circles to complex figures that may involve <em>mathematical precision</em>.
+            </p>
+        </figure>
+
+    </main>
+
+</body>
+</html>
