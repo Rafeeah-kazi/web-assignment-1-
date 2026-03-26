@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick-Reference Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>-HTML & CSS Quick-Reference Guide-</h1>
+    </header>
+
+    <section class="card">
+        
+        <h2>1. &lt;HTML&gt; Tag</h2>
+        <p>The &lt;HTML&gt; tag identifies the document as an HTML document. It represents the root of an HTML document and acts as the container for all other HTML elements. All HTML documents start with &lt;HTML&gt; and end with &lt;/HTML&gt;.</p>
+
+       
+        <h2>2. &lt;HEAD&gt; Tag</h2>
+        <p>The &lt;HEAD&gt; tag defines the document header and does not affect the appearance of the document in the browser. It can include metadata like &lt;title&gt;, CSS links, and other information.</p>
+
+        <!-- TITLE Tag -->
+        <h2>3. &lt;TITLE&gt; Tag</h2>
+        <p>The &lt;TITLE&gt; tag defines the title of the document. It is placed between &lt;HEAD&gt; and &lt;/HEAD&gt; tags. Each document can have only one title which should identify the document content. The title is not part of the document text and cannot contain links or markup.</p>
+
+        <!-- BODY Tag -->
+        <h2>4. &lt;BODY&gt; Tag</h2>
+        <p>The &lt;BODY&gt; tag defines the main content of the HTML document, including text, images, lists, tables, and hyperlinks. You can set a background color or image using attributes:</p>
+        <ul>
+            <li>&lt;body bgcolor="#000000"&gt;</li>
+            <li>&lt;body bgcolor="rgb(0,0,0)"&gt;</li>
+            <li>&lt;body bgcolor="black"&gt;</li>
+            <li>&lt;body background="http://profdevtrain.austincc.edu/html/graphics/clouds.gif"&gt;</li>
+        </ul>
+
+        <!-- Headings -->
+        <h2>5. Headings (&lt;H1&gt; – &lt;H6&gt;)</h2>
+        <p>HTML has six heading levels. &lt;H1&gt; is the largest and boldest, &lt;H6&gt; the smallest. The <code>ALIGN</code> attribute can set alignment: LEFT, CENTER, or RIGHT.</p>
+        <pre><code>
+&lt;H1 ALIGN="CENTER"&gt;Level 1 Heading&lt;/H1&gt;
+&lt;H2&gt;Level 2 Heading&lt;/H2&gt;
+&lt;H3 ALIGN="RIGHT"&gt;Level 3 Heading&lt;/H3&gt;
+&lt;H4&gt;Level 4 Heading&lt;/H4&gt;
+&lt;H5 ALIGN="CENTER"&gt;Level 5 Heading&lt;/H5&gt;
+&lt;H6&gt;Level 6 Heading&lt;/H6&gt;
+        </code></pre>
+
+        <!-- Paragraph -->
+        <h2>6. Paragraph &lt;P&gt; Tag</h2>
+        <p>The &lt;P&gt; tag creates paragraphs and spacing. Attributes:</p>
+        <ul>
+            <li>align: left (default), center, right</li>
+            <li>dir: ltr (left-to-right), rtl (right-to-left)</li>
+        </ul>
+        <pre><code>
+&lt;p align="center" dir="ltr"&gt;Centered text, left-to-right.&lt;/p&gt;
+&lt;p align="right" dir="rtl"&gt;Right-aligned text, right-to-left.&lt;/p&gt;
+        </code></pre>
+
+        <!-- Line Break -->
+        <h2>7. Line Break &lt;BR&gt; Tag</h2>
+        <p>The &lt;BR&gt; tag ends the current line and moves to the next. Useful for multi-line content.</p>
+
+        <!-- Horizontal Rule -->
+        <h2>8. Horizontal Rule &lt;HR&gt; Tag</h2>
+        <p>Creates a horizontal line separating content sections. Attributes:</p>
+        <ul>
+            <li>align: left, center, right</li>
+            <li>size: height in pixels</li>
+            <li>width: width in px or %</li>
+            <li>color: line color</li>
+        </ul>
+        <pre><code>&lt;hr align="center" size="5" width="50%" color="blue"&gt;</code></pre>
+
+        <!-- Font Tag -->
+        <h2>9. &lt;FONT&gt; Tag</h2>
+        <p>Used to change font size, color, and style. Attributes:</p>
+        <ul>
+            <li>size: 1–7</li>
+            <li>color: color name or RGB value</li>
+            <li>face: font type (e.g., Arial, Verdana)</li>
+        </ul>
+        <pre><code>&lt;font size="3" color="blue" face="Arial"&gt;Sample Text&lt;/font&gt;</code></pre>
+        <p>Note: Modern practice is to use CSS instead of &lt;FONT&gt;.</p>
+
+        <!-- Comments -->
+        <h2>10. Comments</h2>
+        <p>HTML comments are ignored by the browser but visible in source code:</p>
+        <pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+
+        <!-- Superscript & Subscript -->
+        <h2>11. Superscript & Subscript (&lt;SUP&gt;, &lt;SUB&gt;)</h2>
+        <p>&lt;SUP&gt; raises text above baseline: x<sup>2</sup></p>
+        <p>&lt;SUB&gt; lowers text below baseline: H<sub>2</sub>O</p>
+
+        <!-- CSS Properties -->
+        <h2>12. Common CSS Properties</h2>
+        <ul>
+            <li>font-family</li>
+            <li>background-color</li>
+            <li>color</li>
+            <li>margin</li>
+            <li>padding</li>
+            <li>border-radius</li>
+            <li>box-shadow</li>
+            <li>text-align</li>
+            <li>max-width</li>
+        </ul>
+
+    </div>
+</div>
+
+<footer>
+      HTML & CSS Quick-Reference Guide| CREATED BY RAFEEAH KAZI
+</footer>
+
+</body>
+</html>
