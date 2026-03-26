@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #7b041b;  
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 0;
+    border-bottom: 2px solid #7b041b;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #7b041b;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: 2px solid #7b041b;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #7b041b;
+    color: #ffffff;
+}
+
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    text-align: center;
+    color: #7b041b;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    color: #7b041b;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #7b041b;
+    padding-bottom: 5px;
+}
+
+
+.card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    border-left: 6px solid #7b041b;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+blockquote {
+    border-left: 4px solid #7b041b;
+    padding-left: 15px;
+    font-style: italic;
+    margin: 10px 0 15px 0;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #D2042D;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #a30021;
+}
+
+
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+}
